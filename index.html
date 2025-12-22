@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hatkaraoke.vn - Chọn Bài Hát Karaoke Nhanh Cho Android TV Box & Máy Tính</title>
+    <meta name="description" content="Tìm kiếm nhanh, chọn bài hát karaoke online trên website hatkaraoke.vn. Hỗ trợ đầu máy Android TV Box, máy tính và các thiết bị khác. Chọn bài hát nhanh chóng, tiện lợi.">
+    <meta name="keywords" content="hát karaoke, chọn bài karaoke, danh sách bài hát karaoke, hatkaraoke.vn, karaoke online, android box karaoke">
+    <meta name="author" content="1Touch.Pro">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="/icon.ico">
+    <link rel="apple-touch-icon" href="/icon.ico">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hatkaraoke.vn/">
+    <meta property="og:title" content="hatkaraoke.vn - Chọn Bài Hát Karaoke Nhanh Cho Android TV Box & Máy Tính">
+    <meta property="og:description" content="Tìm kiếm nhanh, chọn bài hát karaoke online trên website hatkaraoke.vn. Hỗ trợ đầu máy Android TV Box, máy tính và các thiết bị khác. Chọn bài hát nhanh chóng, tiện lợi.">
+    <meta property="og:image" content="https://hatkaraoke.vn/banner.jpg">
+    <meta property="og:locale" content="vi_VN">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        karaoke: {
+                            900: '#2e1065', // Very dark violet (Main Text)
+                            800: '#4c1d95', // Dark violet (Headers/Active states)
+                            700: '#5b21b6', // Primary Brand Color
+                            600: '#7c3aed', // Primary Accent
+                            500: '#8b5cf6', // Secondary Accent
+                            400: '#a78bfa',
+                            200: '#ddd6fe', // Borders
+                            100: '#f3e8ff', // Light Backgrounds
+                            50: '#faf5ff', // Very Light Backgrounds
+                        },
+                        neon: {
+                            pink: '#db2777', // Darker pink for visibility on light bg
+                            blue: '#0284c7', // Darker blue for visibility on light bg
+                            purple: '#7e22ce',
+                        }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            background-color: #faf5ff;
+            /* Light Lavender BG */
+            color: #2e1065;
+            /* Dark Text */
+        }
+
+        /* Custom Scrollbar - Light Theme */
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f3e8ff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ddd6fe;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a78bfa;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
